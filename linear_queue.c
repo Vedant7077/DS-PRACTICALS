@@ -43,6 +43,7 @@ void deleteq(){
 }
 
 void display(){
+    printf("Queue elements are :\n");
     for(int i = front;i<=rear;i++){
         printf("%d\t",queue[i]);
     }
